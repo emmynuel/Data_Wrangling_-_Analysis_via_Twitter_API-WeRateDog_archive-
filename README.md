@@ -2,11 +2,13 @@
 This project use tweepy and other python libraries to wrangle, analyze and visualizes report on the tweet of WeRateDogs twitter user. WeRateDogs is a twitter account that rates people's dog with a humorous comment about the dog.
 
 Introduction: 
+
 In this project, Using Python and its libraries, I gather data from a variety of sources and in a variety of 
 formats, assess its quality and tidiness, then clean it. which is called data wrangling. I am documenting 
 my wrangling effort in this report which I will analyze and visualize in the analysis report.
 This project is part of the requirement of data-wrangling section of my Udacity Data Analyst Nanodegree 
 Program.
+
 Project Details:
 The dataset that i will be wrangling (and analyzing and visualizing) is the tweet archive of Twitter user 
 @dog_rates, also known as WeRateDogs. WeRateDogs is a Twitter account that rates people's dogs with 
@@ -24,6 +26,7 @@ a) Data-wrangling
 b) Storing
 c) Analyzing & Visualization
 d) Report
+
 Gathering the data
 I make use of three (3) different formats of data for this project, which are gathered as follows:
 1. Twitter Archive enhanced data - This data is downloaded from my student project page (Note: in the 
@@ -59,11 +62,13 @@ Tidiness
 collapse into one column (Each variable forms a column). And the none are taken out with an 
 empty space to ease analysis.
 10. The three data frame (df1,predict, tweepy_df) needs to be merge.
+
 Cleaning Data
 Most of the tidiness and quality issues sighted were with the archive data (df1) which I did justice to by 
 changing the datatype where needed, cleaning out the tweet_id that was not matching with the image 
 prediction, concatenating the stages into one column name growth, deleted unnecessary columns, 
 works on the rating_denominator and then merge the cleaned data to carry out my analysis.
+
 Storing Data
 After cleaning the data’s, I merge the data set into a single file and then save on my computer as 
 twitter_archive_master.csv
